@@ -1,0 +1,152 @@
+:root {
+    --link-color: #ffffff;
+    --social-link-color: #000000;
+    --link-color_hover: #ff6c00;
+    --heading-font-family: "Roboto , Raleway", sans-serif;
+    --text-font-family: "Roboto", sans-serif;
+  }
+
+  * {
+    font-family: var(--text-font-family);
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  /* styles pentru index.html */
+
+  .left-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #4d5ae5;
+  }
+
+  .right-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #2E2F42;
+  }
+
+  .studio-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2E2F42;
+  }
+
+  .portofolio-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2E2F42;
+  }
+
+  .contacts-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2E2F42;
+  }
+
+.contacts {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F42;
+}
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.effective-solutions {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+.buton-order-service {
+    background-color:#4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.our-goals-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+.o-g-description-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F42;
+}
+
+.card-images-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2E2F42;
+}
+
+.our-team-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+.o-t-clas {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F42;
+}
+
+.after-logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F42;
+}
+
+/* styles pentru portofolio.html */
+
+.filterall {
+    background-color:#404BBF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.filterbuton {
+    background-color:#E7E9FC;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4D5AE5;
+}
+
+.firstcard-clas-h {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+}
+
+.firstcard-clas-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E2F42;
+}
