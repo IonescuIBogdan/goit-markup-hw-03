@@ -29,6 +29,7 @@
     justify-content: left;
     border-top: 1px solid #E7E9FC;
     background-color: #2E2F42;
+    width:1200px;
   }
 
   .logo {
@@ -36,6 +37,7 @@
     width: 115px;
     height: 24px;
     margin-left: 0;
+    justify-content: center;
   }
 
   .left-logo-footer {
@@ -268,6 +270,6 @@
   width:1200px;
 }
 
-.container:not(:first-child, :last-child) {
+.container:not(:first-child):not(:last-child) {
   padding: 94px 0;
 }
