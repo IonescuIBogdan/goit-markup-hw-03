@@ -8,6 +8,7 @@
 
   * {
     font-family: var(--text-font-family);
+    text-decoration: none;
   }
 
   ul {
@@ -15,6 +16,49 @@
   }
 
   /* styles pentru index.html */
+
+  .header .container {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E7E9FC;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .footer .container {
+    justify-content: left;
+    border-top: 1px solid #E7E9FC;
+    background-color: #2E2F42;
+  }
+
+  .logo {
+    display: flex;
+    width: 115px;
+    height: 24px;
+    margin-left: 0;
+  }
+
+  .left-logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #4d5ae5;
+  }
+
+  .right-logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #F4F4FD;
+  }
+
+  .after-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F4F4FD;
+    justify-content: left;
+  }
 
   .left-logo {
     font-family: "Raleway", sans-serif;
@@ -28,6 +72,12 @@
     font-weight: 800;
     font-size: 18px;
     color: #2E2F42;
+  }
+
+  .nav-clas {
+    display: flex;
+    width: 261px;
+    height: 24px;
   }
 
   .studio-clas {
@@ -51,30 +101,65 @@
     color: #2E2F42;
   }
 
-.contacts {
+.contacts-mail {
+    display: flex;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #2E2F42;
+    width: 153px;
+    height: 24px;
 }
 
-.hero-section {
+.contacts-tel {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #2E2F42;
+  width: 151px;
+  height: 24px;
+  justify-content: right;
+}
+
+.hero-section-ul {
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section .container {
     background-color: #2E2F42;
+    display: flex;
+    padding: 94px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .effective-solutions {
+    width: 496px;
+    height: 120px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     color: #FFFFFF;
+    text-align: center;
 }
 
 .buton-order-service {
+    width: 169px;
+    height: 56px;
     background-color:#4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
+}
+
+.our-goals-container {
+  display: flex;
+  padding: 94px 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-goals-clas {
@@ -91,11 +176,34 @@
     color: #2E2F42;
 }
 
+.card-images .container {
+  padding: 94px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.c-i-clasa {
+  display: flex;
+  justify-content: space-between;
+}
+
 .card-images-clas {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     color: #2E2F42;
+    text-align: center;
+}
+
+.our-team-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team .container {
+  padding: 94px 0;
+  align-items: center;
+  text-align: center;
 }
 
 .our-team-clas {
@@ -112,11 +220,14 @@
     color: #2E2F42;
 }
 
-.after-logo {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #2E2F42;
+.our-team {
+  background-color: #F4F4FD;
+}
+
+.our-goals {
+  display: flex;
+  justify-content: center;
+  padding: 94 0;
 }
 
 /* styles pentru portofolio.html */
@@ -149,4 +260,14 @@
     font-weight: 400;
     font-size: 16px;
     color: #2E2F42;
+}
+
+/* alte clase */
+
+.container {
+  width:1200px;
+}
+
+.container:not(:first-child, :last-child) {
+  padding: 94px 0;
 }
