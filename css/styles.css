@@ -80,6 +80,8 @@
     display: flex;
     width: 261px;
     height: 24px;
+    justify-content: space-between;
+    margin-right: 332px;
   }
 
   .studio-clas {
@@ -232,7 +234,20 @@
   padding: 94 0;
 }
 
+.footer-container {
+  width: 264px;
+}
+
 /* styles pentru portofolio.html */
+
+.filters {
+  padding: 94px 0;
+  align-items: center;
+}
+
+.filter-butons {
+  display: flex;
+}
 
 .filterall {
     background-color:#404BBF;
@@ -240,6 +255,7 @@
     font-weight: 500;
     font-size: 16px;
     color: #fff;
+    margin-right: 24px;
 }
 
 .filterbuton {
@@ -248,6 +264,25 @@
     font-weight: 500;
     font-size: 16px;
     color: #4D5AE5;
+    margin-right: 24px;
+}
+
+.firstcard-clas {
+  display: flex;
+  justify-content: space-between;
+  padding: 94px 0;
+}
+
+.secondcard-clas {
+  display: flex;
+  justify-content: space-between;
+  padding: 94px 0;
+}
+
+.thirdcard-clas {
+  display: flex;
+  justify-content: space-between;
+  padding: 94px 0;
 }
 
 .firstcard-clas-h {
